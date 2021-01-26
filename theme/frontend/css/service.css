@@ -1,0 +1,181 @@
+
+
+.heading_sv {
+    font-family: "Lora-Regular";
+    font-size: 14px;
+    color: #f8f8f8e6;
+    padding: 0px 0px 1.4rem 0px;
+    border-bottom: 1px solid #d19302;
+}
+
+.list-ctent .avt-bn {
+    position: relative;
+    border: 1px solid #fdb300;
+    border-radius: 1.2rem;
+    color: #fff;
+    background: #000;
+    margin: 2rem 0px;
+}
+
+.list-ctent .c-img img {
+    margin: 0;
+    padding: 8px;
+    border-radius: 1.2rem;
+    height: fit-content;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+._wreapper .selection-content .avt-bn.c-img{
+    padding-top: 62.5%;
+}
+.list-ctent .avt-bn::before {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    top: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(../images/icon/before-pro3.png) no-repeat;
+}
+
+.list-ctent .avt-bn::after {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    bottom: -16px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(../images/icon/after-pro3.png) no-repeat;
+}
+
+.clearfix:before, .clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.s-content img {
+    display: inline-block;
+    max-width: 100%;
+    margin: 10px 0;
+    -o-object-fit: inherit;
+    object-fit: inherit;
+    height: auto;
+    float: right;
+}
+
+.wp-caption {
+    text-align: left;
+}
+
+.mk-single-content h3 span {
+    color: #DBAF56;
+    font-family: "Lora-Regular" !important;
+}
+
+.mk-single-content p, .wp-caption.aligncenter {
+    font-family: "Lora-Regular";
+    font-size: 14.4px;
+    color: #c6ceca;
+    text-align: left;
+}
+
+.mk-single-content p em {
+    font-style: italic;
+    font-family: "Lora-Regular";
+    font-size: 14.4px;
+    color: #c6ceca;
+}
+
+.mk-single-content p a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.mk-single-content p a:hover {
+    color: ivory;
+    transition: .5s;
+}
+
+.fr-form .form-sigin {
+    padding: .5rem 1rem 1rem;
+}
+ .selection-content .news .list-ctent {
+    padding: 2rem 0 0!important;
+}
+.fr-form .sv_hding {
+    font-size: 1rem;
+    color: #ffcb49;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-bottom: 1px solid #fdb300;
+    margin: 0;
+    font-family: "Lora-Regular";
+}
+.list-ctent .fr-form .form-sigin .form-control {
+    border: 1px solid #d19302;
+    background: #4b4b4b;
+    border-radius: 0;
+    color: #fff;
+    padding: .375rem .75rem;
+}
+ .list-ctent .fr-form::before {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    top: -1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/before-pro3.png) no-repeat;
+}
+.list-ctent .fr-form::after {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    bottom: -1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/after-pro3.png) no-repeat;
+}
+ .list-ctent .fr-form {
+    position: relative;
+    border: 1px solid #fdb300;
+    border-radius: 1rem;
+    color: #fff;
+    background: #373737;
+    margin-top: 2rem;
+}
+ .fr-form .form-sigin p {
+    margin-bottom: 10px;
+    font-family: "Lora-Regular";
+    font-size: 14px;
+}
+.form-sigin p a{
+    text-decoration: none;
+    color: ivory;
+}
+.form-sigin p a:hover{
+    color: var(--primary-color);
+    transition: .5s;
+}
+.form_pl::placeholder{
+    color: ivory !important;
+    font-size: 14px;
+    font-family: "Lora-Regular";
+}
+.fr-form .form-sigin .form-group .btn-sign {
+    font-size: .8rem;
+    background: linear-gradient(45deg, orange, #ffce59, orange);
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+}

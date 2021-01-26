@@ -1,0 +1,113 @@
+.banner-content img{
+ max-width: 100%;
+}
+.ct-pro.ctact h1, .tits{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffcb49c4;
+    text-transform: uppercase;
+    font-family: "Lora-Regular";
+    margin-bottom: 1rem;
+    text-align: left;
+}   
+ .ct-pro.ctact table tr td:nth-child(even) {
+    color: #fff;
+    font-size: 14px;
+    font-family: "Roboto-regular";
+    line-height:2.2 !important;
+    text-align: left;
+}
+.ct-pro.ctact table tr td:nth-child(odd) {
+    color: #c6ceca;
+    line-height: 2.2 !important;
+    text-align: left;
+}
+.ct-pro.ctact table tr td a{
+    text-decoration: none;
+    color: #fff;
+}
+.ct-pro.ctact table tr td a:hover{
+    color: var(--primary-color);
+    transition: .5s;
+}
+ .ct-pro .pt-2 {
+    padding: 1rem;
+}
+
+ .ct-pro.ctact table {
+    padding-bottom: 1rem;
+    display: block;
+}
+.send-contact .form-control {
+    border: 1px solid #d19302;
+    background: #4b4b4b;
+    border-radius: 5px;
+    color: #c6ceca;
+    padding: .375rem .75rem;
+}
+.send-contact .form-control::placeholder{
+    color: #c6ceca;
+    font-size: 14px;
+}
+.send-contact .form-control:focus{
+    box-shadow: none;
+}
+.send-contact .btn-sign{
+    font-size: .8rem;
+    background: linear-gradient(45deg, orange, #ffce59, orange);
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    color: #000;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+._wreapper .selection-content .ct-pro .img-ct {
+    position: relative;
+    border: 1px solid #fdb300;
+    color: #fff;
+    background: #000;
+    padding: 7px 7px 0 7px;
+}
+._wreapper .selection-content .ct-pro .img-ct.c-img{
+    padding-top: 80%;
+}
+
+.c-img {
+    display: block;
+    position: relative;
+ 
+}.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+._wreapper .selection-content .ct-pro .img-ct::before {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    top: -1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/before-pro3.png) no-repeat;
+}
+._wreapper .selection-content .ct-pro .img-ct::after {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    bottom: -1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/after-pro3.png   ) no-repeat;
+}.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+}

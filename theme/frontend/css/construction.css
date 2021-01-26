@@ -1,0 +1,96 @@
+._wreapper .selection-content .title.tit::before {
+    background: transparent;
+}
+    
+._wreapper .selection-content .list-Pr::before {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    top: 4px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/before-pro3.png) no-repeat;
+}
+._wreapper .selection-content .list-Pr::after {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    bottom: -13px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/after-pro3.png) no-repeat;
+}
+.Const__slide_list.slick-initialized.slick-slider .slick-prev.slick-arrow{
+    display: none !important;
+}
+._wreapper .selection-content .list-Pr {
+    position: relative;
+    padding: 1rem 0 0;
+}
+._wreapper .selection-content .Const__slide::before {
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+._wreapper .selection-content .Const__slide::after {
+    content: '';
+    position: absolute;
+    width: 68px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+._wreapper .selection-content .Const__slide{
+    position: relative;
+}
+.Const__slide .Const__slide_list .Const__slide_item a img{
+  width: 100%;
+}
+._wreapper .selection-content .box-pr .nav-link {
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    color: #000;
+    font-weight: 400;
+    border-radius: 3rem;
+    background: linear-gradient(45deg, orange, #ffce59, orange);
+    border: 1px solid transparent;
+    display: table;
+    margin: 0 auto 2rem;
+    font-family:"Lora-Regular";
+}
+._wreapper .selection-content .box-pr .nav-link:hover {
+    background: transparent;
+    border: 1px solid #ffcb49;
+    color: #fff;
+}
+._wreapper .selection-content .box-pr {
+    margin-top: 2rem;
+}
+
+._wreapper .selection-content .title::after{
+    content: '';
+    position: absolute;
+    width: 235px;
+    height: 17px;
+    left: 50%;
+    bottom: -20px;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/after-title.png) no-repeat;
+}
+._wreapper .selection-content .title.tit {
+    font-size: 1.6rem;
+    color: #fff;
+    padding-top: 32px !important;
+}

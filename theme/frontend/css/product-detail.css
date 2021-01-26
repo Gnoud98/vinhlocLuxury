@@ -1,0 +1,113 @@
+._wreapper .selection-content .ct-pro .img-ct::before {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    top: -1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/before-pro3.png) no-repeat;
+}
+._wreapper .selection-content .ct-pro .img-ct::after {
+    content: '';
+    position: absolute;
+    width: 118px;
+    height: 14px;
+    bottom: -1rem;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url(../images/icon/after-pro3.png) no-repeat;
+}
+._wreapper .selection-content .ct-pro .fancy img {
+    max-width: 98%;
+    max-height: 98%;
+    height: 98% !important;
+    width: auto !important;
+    margin: 0 auto;
+}
+._wreapper .selection-content .ct-pro .img-ct.c-img {
+    padding-top: 80%;
+}
+._wreapper .selection-content .ct-pro .img-ct {
+    position: relative;
+    color: #fff;
+    background: #000;
+    border: 1px solid var(--primary-color);
+}
+/* ._wreapper .selection-content .ct-pro ul li::before{
+    content: "";
+    position: absolute;
+    width: 5.5px;
+    height: 5.5px;
+    background: var(--primary-color);
+    left: 0;
+    
+} */
+.ct-pro .s-content h2{
+    color: #fff;
+    font-size: 20px;
+    font-family: "Lora-bold";
+    text-transform: uppercase;
+    line-height: 1.6;
+    margin-bottom: 16px;
+}
+.ct-pro .s-content .price{
+    color: var(--primary-color);
+   font-size: 16px;
+}
+.ct-pro .s-content .price a{
+    color: var(--primary-color);
+}
+.ct-pro .s-content .price a:hover{
+    color: #fff;
+    transition: .5s;
+}
+.ct-pro .s-content ul li .sp1{
+    
+    float: left;
+    color: #c6ceca;
+}
+.ct-pro .s-content ul li .sp2{
+    color: #fff;
+    font-family:  "Roboto-regular";
+}
+.ct-pro .s-content ul li{
+    list-style: square;
+    color: var(--primary-color);
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 3px 0px;
+    text-align: left;
+}
+.ct-pro .s-content ul{
+    padding-left: 16px;
+    padding-top: 16px;
+}
+.cart_buy{
+    position: relative;
+    background: linear-gradient(45deg, orange, #ffce59, orange);
+    font-size: 1.2rem;
+    border: 1px solid #fdb300;
+    border-radius: .5rem;
+    color: #000;
+    display: table;
+    padding: .5rem 2rem .5rem 4.5rem;
+    margin: 2rem 0 0;
+}
+.ct-pro .s-content a{
+    text-decoration: none;
+}
+.ct-pro .s-content a:hover{
+    color: #000;
+}
+.ct-pro .s-content a i{
+margin-left: -30px;
+}
+.cart_buy span{
+    padding-left: 10px;
+}
+.featured-products .detail{
+    margin-top: 30px;
+}

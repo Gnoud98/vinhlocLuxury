@@ -1,0 +1,22 @@
+.banner-content img{
+ width: 100%;
+}
+.word-ctent h3{
+   color: #dbaf56 !important;
+   font-family: "Cambria";
+   font-size: 18px;
+   text-transform: uppercase;
+   line-height: 1.5;
+}
+.word-ctent p{
+    color: #c6ceca;
+    font-size: .9rem;
+    font-family: "Lora-Regular";
+    line-height: 1.6;
+    margin-top: 10px;
+}
+.word-ctent p a{
+    text-decoration: none;
+    color: var(--primary-color);
+    font-family: "Lora-Regular";
+}
